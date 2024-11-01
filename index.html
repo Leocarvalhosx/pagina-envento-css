@@ -4,53 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evento Fictício</title>
+    <title>FiapDay</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Bem-vindo ao Evento Fictício 2024</h1>
+        <h1>Bem-vindo ao FiapDay 2024</h1>
         <p>Participe do maior evento de tecnologia do ano!</p>
     </header>
-    <section id="descricao">
-        <h2>Descrição do Evento</h2>
-        <p>Este evento é uma oportunidade única para conectar-se com profissionais e aprender sobre as últimas
-            tendências em tecnologia.</p>
-    </section>
-    <section id="palestrantes">
-        <h2>Palestrantes</h2>
-        <div class="palestrante">
-            <img src="imagens/palestrante1.jpg" alt="Palestrante 1">
-            <h3>Maria Silva</h3>
-            <p>Especialista em IA</p>
-        </div>
-        <div class="palestrante">
-            <img src="imagens/palestrante2.jpg" alt="Palestrante 2">
-            <h3>João Santos</h3>
-            <p>Desenvolvedor Full Stack</p>
-        </div>
-    </section>
-    <section id="agenda">
-        <h2>Agenda</h2>
+    <nav>
         <ul>
-            <li>09:00 - Abertura do evento</li>
-            <li>10:00 - Palestra de IA com Maria Silva</li>
-            <li>14:00 - Workshop de Desenvolvimento com João Santos</li>
+            <li><a href="#descricao">Descrição</a></li>
+            <li><a href="#palestrantes">Palestrantes</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#inscricao">Inscrição</a></li>
         </ul>
-    </section>
-    <section id="inscricao">
-        <h2>Inscreva-se</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+    </nav>
+    <main>
+        <section id="descricao">
+            <h2>Descrição do FiapDay</h2>
+            <p>Este evento é uma oportunidade única para conectar-se com profissionais e aprender sobre as últimas
+                tendências em tecnologia.</p>
+        </section>
+        <section id="palestrantes">
+            <h2>Palestrantes</h2>
+            <article class="palestrante">
+                <img src="img/elon-musk.jpeg" alt="Palestrante 1">
+                <div class="palestrante-info">
+                    <h3>Elon Musk</h3>
+                    <p>Especialista em IA</p>
+                </div>
+            </article>
+            <article class="palestrante">
+                <img src="img/iphone_steve_jobs.jpg" alt="Palestrante 2">
+                <div class="palestrante-info">
+                    <h3>Steve Jobs</h3>
+                    <p>Desenvolvedor Full Stack</p>
+                </div>
+            </article>
+        </section>
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ul>
+                <li>09:00 - Abertura do FiapDay</li>
+                <li>10:00 - Palestra de IA com Elon Musk</li>
+                <li>14:00 - Workshop de Desenvolvimento com Steve Jobs</li>
+            </ul>
+        </section>
+        <section id="inscricao">
+            <h2>Inscreva-se</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Evento Fictício. Todos os direitos reservados.</p>
+        <p>&copy; 2024 FiapDay. Todos os direitos reservados.</p>
     </footer>
 </body>
 
